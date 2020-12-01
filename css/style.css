@@ -1,0 +1,282 @@
+*{
+	margin: 0;
+	margin-top:0 ;
+	padding: 0;
+	font-family: tahoma, arial, sans-serif, 'lucida grande';
+}
+
+/* search */
+#qq {
+	text-align: center;
+}
+.header-search {
+	background-color: #f11c87;
+	display :inline-block;
+	width :1500px ;
+	text-align: center;
+}
+.orderby {
+	height: 40px;
+}
+.search-field {
+	height: 40px;
+	font-weight: 100px;
+	width :500px ;
+
+}
+.search-field:focus{
+	outline: none;
+	/* viền đen trên thanh search */
+}
+
+
+
+
+a{
+	text-decoration: none;
+	color: #696969;
+}
+p{
+	font-size: 18px;
+}
+a:hover, a:hover p{
+	color: #f11c87;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+
+/* Menu */
+.menu{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center ;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	
+}
+.menu img{
+	margin: 0px 15px -20px;
+}
+.menu img:hover{
+	opacity: 0;
+}
+
+.login {
+	padding: 15px 25px;
+	background-color: #f11c87;
+	/* --> Recommend background-color:  #ba7597 */
+	border-radius: 30px;
+	/* --> Làm tròn nút button  */
+	color: #fff;
+	font-size: 10px;
+	text-transform: uppercase;
+	/* Viet hoa chu cai */
+	cursor: pointer;
+	/* ---> Con trỏ */
+	border: none;
+	margin-top: 0px;
+	color: azure;
+
+}
+
+/* SLICE */
+#myCarousel{
+	border: 1px solid #282828;
+}
+
+.carousel-indicators{
+	display: inline-block;
+    margin: 1px;
+    cursor: pointer;
+    background-color: #000000b2;
+    border-radius: 10px;
+}
+.carousel-indicators :hover{
+	background-color:#f11c87;
+}
+
+.carousel-caption{
+	width: 390px;
+	position: absolute;
+	top: 180px;
+	
+}
+
+.carousel-caption h2 {
+	/* color : rebeccapurple; */
+	color: #f11c87;
+	margin-right: 2000px;
+	margin-left: -200px;
+	font-size: 90px;
+}
+
+.carousel-caption p{
+	color: rgba(0, 0, 0, 0.753);
+	margin-left: -200px;
+	
+}
+
+#Browse{
+	
+	margin-left: -500px;
+}
+
+/* Content */
+
+/* CONTENT */
+.content{
+	width: 1200px;
+	margin: auto;
+}
+#title{
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+.sp, .ten, .gia, .mua{
+	width: 285px;
+	margin-left: 20px;
+	float: left;
+}
+.sp:first-child, .ten:first-child, .gia:first-child, .mua:first-child{
+	margin-left: 0;
+}
+.sp{
+	
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.sp img{
+	-webkit-transform: scale(1.5);
+	   -moz-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	     -o-transform: scale(1.5);
+			transform: scale(1.5);
+			/* animated move */
+}
+.sp img:hover{
+	-webkit-transform: scale(1.0);
+	   -moz-transform: scale(1.0);
+	    -ms-transform: scale(1.0);
+	     -o-transform: scale(1.0);
+			transform: scale(1.0);
+			/* animated move */
+}
+
+.sp_nhan{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.sp_nhan img{
+	
+	transform: scale(0.6);
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+   -ms-transform: scale(0.6);   
+	  -o-transform: scale(0.6);
+
+	  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-size: 0;
+}
+.sp_nhan img:hover{
+	-webkit-transform: scale(1.0);
+	   -moz-transform: scale(1.0);
+	    -ms-transform: scale(1.0);
+	     -o-transform: scale(1.0);
+			transform: scale(1.0);
+			/* animated move */
+}
+
+.ten p{
+	color: #464444;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.gia{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #818753;
+	margin-bottom: 20px;
+}
+.gia span{
+	font-size: 25px;
+}
+.mua{
+	text-align: center;
+}
+
+
+.layer4{
+	margin-bottom: 20px;
+}
+.btn{
+	padding: 15px 55px;
+	background-color: #f11c87;
+	/* --> Recommend background-color:  #ba7597 */
+	border-radius: 30px;
+	/* --> Làm tròn nút button  */
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	cursor: pointer;
+	/* ---> Con trỏ */
+	border: none;
+	margin-top: 20px;
+}
+.btn:hover{
+	background-color: #464444;
+}
+
+/* Footer */
+
+.about{
+	width: 400px;
+	float: left;
+	margin-left: 100px;
+	}
+.about #trai{
+	width: 70px;
+	height: 38px;
+	margin-top: 15px;
+	margin-right: 20px;
+	float: left;
+	
+}
+.about #phai{
+	font-size: 15px;
+	width: 245px;
+	color: #6C6666;
+	float: left;
+}
+.contact{
+	width: 300px;
+	float: left;
+}
+.contact p{
+	font-size: 16px;
+	margin-top: 10px;
+	color: #6C6666;
+}
+.contact span{
+	font-size: 20px;
+	font-weight: bold;
+}
+.link{
+	width: 500px;
+	float: left;
+}
+.link p{
+	font-size: 16px;
+	margin-top: 45px;
+	color: #6C6666;
+}
+
+
